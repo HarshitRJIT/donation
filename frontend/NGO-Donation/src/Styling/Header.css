@@ -1,0 +1,90 @@
+/* Navbar Styling */
+.custom-navbar {
+    background-color: #FF6F00; /* Orange Theme */
+    padding: 12px 0;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    padding-right: 50px;
+  }
+  
+  /* Brand Title */
+  .brand-title {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 30px 10px;
+    margin: 10px;
+  }
+
+  /* nav-item */
+  .nav-item {
+    Display: flex;
+    align-items: center;
+    padding: 0 10px;
+  };
+  
+  /* Hover Effect */
+  .navbar-nav .nav-link:hover {
+    color: #ffdd57 !important; /* Light Yellow */
+  }
+  
+  /* Donate Button */
+  .donate-btn {
+    background-color: white;
+    color: #FF6F00;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+    transition: 0.3s;
+  }
+  
+  .donate-btn:hover {
+    background-color: #ffdd57; /* Light Yellow */
+    color: #FF6F00;
+  }
+  
+  /* Container to center everything */
+.logo-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items:center; /* Center horizontally */
+  justify-content: left; /* Center vertically */
+  text-align: center;
+  width: 100%;
+  max-width: 200px; /* Adjust width as needed */
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Logo Image */
+.logo-image {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 150px; /* Adjust max size */
+  object-fit: cover; /* Ensure it looks good */
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Organization Name */
+.brand-title {
+  margin-top: 10px; /* Spacing between image and text */
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
